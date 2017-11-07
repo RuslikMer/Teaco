@@ -36,7 +36,6 @@ namespace Teaco
             var mail = driver.FindElement(By.Name("REGISTER[EMAIL]"));
             mail.SendKeys(s+"@mail.ru");
 
-            Random randj = new Random();
             for (int v = 0; v < 7; v++)
             {
                 namb += Convert.ToChar(rand.Next(48, 57));

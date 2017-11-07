@@ -62,7 +62,7 @@ namespace Teaco
             }
             TSum = Convert.ToDouble(TotS[0]);
 
-            var wayOfpay = driver.FindElementByXPath("/html/body/div[2]/div[3]/div[2]/div/form/div[2]/div[4]/div[9]/label");
+            var wayOfpay = driver.FindElementByXPath("//*[@id=\"checkout-pay-methods\"]/div[1]/label");
             wayOfpay.Click();
             wayOfpay.Submit();
         }
